@@ -140,6 +140,7 @@ textarea{
     height:100px;
     width:600px;
     border-radius: 10px;;
+    border:none;
 }
 
 button{
@@ -162,6 +163,179 @@ button:hover{
 .card{
     display:flex;
     align-items:center;
+}
+
+.line{
+    width:20%;
+    height:3px;
+    background-color:black;
+}
+
+@media screen and (max-width: 1194px){
+    .card{
+        display:flex;
+        flex-direction:column;
+    }
+    #banana{
+        width:800px;
+        height:auto;
+        object-fit:cover;
+    }
+    p{
+        font-size: smaller;
+    }
+    .product{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    .productData{
+        display:flex;
+        align-items:center;
+        gap:30px;
+
+    }
+    h3{
+        font-size:15px;
+    }
+}
+
+@media screen and (max-width:855px){
+    #banana{
+        width:700px;
+        height:auto;
+        object-fit:cover;
+    }
+    .img{
+        width:400px;
+        height:auto;
+    }
+
+    #semiFinalP{
+        font-size:12px;
+    }
+
+}
+
+@media screen and (max-width:782px){
+    #semiFinalP{
+        font-size:10px;;
+    }
+}
+
+@media screen and (max-width:759px){
+    #banana{
+        width:600px;
+        height:auto;
+        object-fit:cover;
+    }
+    .img{
+        width:300px;
+        height:auto;
+    }
+
+}
+
+@media screen and (max-width:656px){
+    #banana{
+        width:500px;
+        height:auto;
+        object-fit:cover;
+    }
+    
+
+}
+
+@media screen and (max-width:606px){
+    #banana{
+        width:400px;
+        height:auto;
+        object-fit:cover;
+    }
+    input{
+        height:30px;
+        width:400px;
+    }
+
+    textarea{
+
+        height:70px;
+        width:400px;
+
+    }
+    
+    li{
+        font-size:16px;
+    }
+    h1{
+        font-size:20px;
+    }#semiFinalP{
+        font-size:8px;;
+    }
+    #new{
+        font-size:25px;
+    }
+    #bestsellers{
+        font-size:25px;
+    }
+
+}
+
+@media screen and (max-width:451px){
+    #banana{
+        width:300px;
+        height:auto;
+        object-fit:cover;
+    }
+    .img{
+        width:250px;
+        height:auto;
+    }
+    input{
+        height:25px;
+        width:250px;
+    }
+
+    textarea{
+
+        height:50px;
+        width:250px;
+
+    }
+    #semiFinalP{
+        font-size:6px;;
+    }
+    .bananaData{
+        font-size:12px;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+}
+
+@media screen and (max-width:375px){
+    #banana{
+        width:250px;
+        height:auto;
+        object-fit:cover;
+    }
+    .img{
+        width:200px;
+        height:auto;
+    }
+    input{
+        height:20px;
+        width:200px;
+    }
+
+    textarea{
+        height:40px;
+        width:200px;
+    }
+    h3{
+        font-size:9px;
+    }
 }
 
 
